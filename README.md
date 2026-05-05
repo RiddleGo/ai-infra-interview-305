@@ -50,7 +50,10 @@
 
 ### 单页复习页 `study.html`
 
-根目录 **[study.html](./study.html)** 由 **`build_study_html.py`** 扫描本仓库全部 Markdown 生成：左侧目录、全文搜索、随机一篇，适合用浏览器离线集中翻阅。修改任意 `.md` 后请重新生成再提交：
+- **本地**：打开 [study.html](./study.html)。
+- **在线（网页渲染）**：[**https://riddlego.github.io/ai-infra-interview-305/study.html**](https://riddlego.github.io/ai-infra-interview-305/study.html)（**勿用** `raw.githubusercontent.com` / **Raw**，否则只会显示源码。）
+
+由 **`build_study_html.py`** 扫描本仓库全部 Markdown 生成。修改任意 `.md` 后请重新生成再提交：
 
 ```bash
 pip install markdown

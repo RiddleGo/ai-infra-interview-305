@@ -552,7 +552,11 @@ html.light .md a {
 <li>建议搭配 <a href="#doc-2746ab62d080b1ad7a51">305 题漫游指南</a> 按主题线通读后再精刷。</li>
 </ul>
 <h3>单页复习页 <code>study.html</code></h3>
-<p>根目录 <strong><a href="./study.html">study.html</a></strong> 由 <strong><code>build_study_html.py</code></strong> 扫描本仓库全部 Markdown 生成：左侧目录、全文搜索、随机一篇，适合用浏览器离线集中翻阅。修改任意 <code>.md</code> 后请重新生成再提交：</p>
+<ul>
+<li><strong>本地</strong>：打开 <a href="./study.html">study.html</a>。</li>
+<li><strong>在线（网页渲染）</strong>：<a href="https://riddlego.github.io/ai-infra-interview-305/study.html"><strong>https://riddlego.github.io/ai-infra-interview-305/study.html</strong></a>（<strong>勿用</strong> <code>raw.githubusercontent.com</code> / <strong>Raw</strong>，否则只会显示源码。）</li>
+</ul>
+<p>由 <strong><code>build_study_html.py</code></strong> 扫描本仓库全部 Markdown 生成。修改任意 <code>.md</code> 后请重新生成再提交：</p>
 <pre><code class="language-bash">pip install markdown
 python build_study_html.py
 </code></pre>
@@ -563,7 +567,7 @@ python build_study_html.py
 <blockquote>
 <p>文中所有<strong>可点击的链接</strong>都会跳转到对应面试题的详解。</p>
 <p>建议边读边点，像翻地图一样逛完 305 个知识点。</p>
-<p>若习惯单页浏览：可打开根目录 <strong><a href="./study.html">study.html</a></strong>（本地用浏览器打开），带侧栏与全文搜索；改 <code>.md</code> 后运行 <code>python build_study_html.py</code> 再提交 <code>study.html</code>。</p>
+<p>单页浏览：本地 <strong><a href="./study.html">study.html</a></strong>；在线请用 <a href="https://riddlego.github.io/ai-infra-interview-305/study.html"><strong>Pages 链接</strong></a>（勿用 Raw）。改 <code>.md</code> 后运行 <code>python build_study_html.py</code> 再提交 <code>study.html</code>。</p>
 </blockquote>
 <hr />
 <h2>序章：AI Infra 面经 305 题，一夜能摸到哪？</h2>
