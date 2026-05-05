@@ -48,6 +48,17 @@
 - 每篇文章含 **完整讲解 + 面试要点 + 记忆要点**。
 - 建议搭配 [305 题漫游指南](./305题漫游指南.md) 按主题线通读后再精刷。
 
+### 单页复习页 `study.html`
+
+根目录 **[study.html](./study.html)** 由 **`build_study_html.py`** 扫描本仓库全部 Markdown 生成：左侧目录、全文搜索、随机一篇，适合用浏览器离线集中翻阅。修改任意 `.md` 后请重新生成再提交：
+
+```bash
+pip install markdown
+python build_study_html.py
+```
+
+侧栏标题与 `<title>` 可由 **`study_html_meta.txt`**（最多三行：主标题、副标题、浏览器标题）定制；未提供时则从 `README.md` 首行标题推断。
+
 ---
 
 *共 305 题，覆盖 AI Infra 全栈。*
